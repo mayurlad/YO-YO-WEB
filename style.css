@@ -38,6 +38,7 @@ nav ul li{
 }
 
 .container{
+    
     min-height: 72vh;
     background-color: black;
     color: white;
@@ -48,6 +49,7 @@ nav ul li{
    border-radius: 12px;
    padding: 34px;
    background-image: url('bg.jpg');
+   
 }
 
 .bottom{
@@ -106,7 +108,8 @@ nav ul li{
 
 .songInfo{
     position: absolute;
-    left: 10vw;
+    margin-bottom: 28vw;
+    margin-right: 14vw;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -114,6 +117,7 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+    
 
 @media only screen and (max-width: 1100px) {
     body {
